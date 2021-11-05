@@ -6,7 +6,7 @@
 
 * **Enable wifi** \
   Run ```ls /sys/class/net``` to find wireless network interface. Will be wlan0 or similar \
-  Add the folowing in config in ```/etc/netplan/```
+  Add the following in config in ```/etc/netplan/```
   ```
   wifis:
     <wireless network interface>:
@@ -20,7 +20,7 @@
   Section ```wifis``` should be a child of root section ```network``` \
   Finally run ```sudo netplan apply```
 
-* **Enable natiral scrolling** \
+* **Enable natural scrolling** \
   Run ```xinput``` to find touchpad device (*Synaptics* or similar) and remember its id \
   Run ```xinput list-props <device id> | grep -i 'scrolling distance'``` 
   to find property responsible for scrolling deltas (vertical and horizontal) and deltas itself.
