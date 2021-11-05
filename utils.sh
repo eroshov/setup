@@ -7,5 +7,4 @@ apt update
 
 apt install ${INSTALL_OPTIONS} \
   xclip \
-  xinput \
-  xserver-xorg-input-evdev
+  xinput

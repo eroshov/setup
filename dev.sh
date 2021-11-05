@@ -12,8 +12,7 @@ apt install ${INSTALL_OPTIONS} \
   python3 \
   python3-dev
 
-snap install \
-  --classic cmake
+snap install --classic cmake
 
 # peda
 git clone https://github.com/longld/peda.git /usr/local/src/peda
