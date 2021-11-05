@@ -34,10 +34,6 @@ snap install \
   --classic code \
   --classic telegram-desktop
 
-# enable natural scrolling (note 4 and 5 are reversed)
-# ~/.zshrc xinput set-prop 12 316 -44 -44
-# see https://askubuntu.com/questions/91426/reverse-two-finger-scroll-direction-natural-scrolling
-
 # add fonts
 # mkdir ~/.fonts
 # wget "https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/NoLigatures/Medium/complete/JetBrains Mono NL Medium Nerd Font Complete Mono.ttf" -o ~/.fonts/JetBrainsMediumMono
