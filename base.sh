@@ -11,3 +11,9 @@ apt install ${INSTALL_OPTIONS} \
   konsole \
   pulseaudio \
   pavucontrol
+
+echo \
+"if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+  exec startx
+fi" \
+>> ~/.profile
